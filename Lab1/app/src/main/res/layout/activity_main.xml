@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/clearButton"
+        android:layout_width="143dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="52dp"
+        android:text="@string/clearButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.85"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <CheckBox
+        android:id="@+id/BoardHotDog"
+        android:layout_width="159dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="18dp"
+        android:text="@string/BoardHotDog"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ChooseDough" />
+
+    <CheckBox
+        android:id="@+id/PhiladelphiaDough"
+        android:layout_width="159dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="96dp"
+        android:text="@string/PhiladelphiaDough"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ChooseDough" />
+
+    <CheckBox
+        android:id="@+id/ThinDough"
+        android:layout_width="159dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="18dp"
+        android:text="@string/ThinDough"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ChooseDough" />
+
+    <TextView
+        android:id="@+id/ChooseDough"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginTop="160dp"
+        android:text="@string/ChooseDough"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PizzasName" />
+
+    <TextView
+        android:id="@+id/ChooseSize"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginTop="48dp"
+        android:text="@string/ChooseSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PizzasName" />
+
+    <CheckBox
+        android:id="@+id/SmallSize"
+        android:layout_width="110dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="14dp"
+        android:text="@string/SmallSize"
+        app:layout_constraintStart_toEndOf="@+id/MiddleSize"
+        app:layout_constraintTop_toBottomOf="@+id/ChooseSize" />
+
+    <CheckBox
+        android:id="@+id/BigSize"
+        android:layout_width="111dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="22dp"
+        android:text="@string/BigSize"
+        app:layout_constraintEnd_toStartOf="@+id/MiddleSize"
+        app:layout_constraintTop_toBottomOf="@+id/ChooseSize" />
+
+    <CheckBox
+        android:id="@+id/StandardDough"
+        android:layout_width="159dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/StandardDough"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ChooseDough" />
+
+    <CheckBox
+        android:id="@+id/MiddleSize"
+        android:layout_width="110dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="14dp"
+        android:text="@string/MiddleSize"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ChooseSize" />
+
+    <EditText
+        android:id="@+id/PizzasName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="101dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/PizzasName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/okButton"
+        android:layout_width="164dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="52dp"
+        android:text="@string/okButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.126"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/OfferText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:text="@string/OfferText"
+        app:layout_constraintBottom_toTopOf="@+id/okButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Lab2</string>
+    <string name="PizzasName">Введіть назву піци</string>
+
+    <string name="ChooseSize">Виберіть розмір</string>
+    <string name="BigSize">Велика</string>
+    <string name="MiddleSize">Середня</string>
+    <string name="SmallSize">Маленька</string>
+
+    <string name="ChooseDough">Виберіть тісто</string>
+    <string name="StandardDough">Стандарт</string>
+    <string name="ThinDough">Тонке</string>
+    <string name="PhiladelphiaDough">Філадельфія</string>
+    <string name="BoardHotDog">Борт Хот-Дог</string>
+
+    <string name="OfferText">Ваше замовлення:</string>
+
+    <string name="okButton">Підтвердити замовлення</string>
+    <string name="clearButton">Очистити замовлення</string>
+</resources>

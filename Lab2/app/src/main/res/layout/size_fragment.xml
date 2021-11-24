@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/ChooseSize"
+        android:layout_width="0dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="115dp"
+        android:layout_marginEnd="150dp"
+        android:text="@string/ChooseSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/SmallSize"
+        android:layout_width="110dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="14dp"
+        android:text="@string/SmallSize"
+        app:layout_constraintStart_toEndOf="@+id/MiddleSize"
+        app:layout_constraintTop_toBottomOf="@+id/ChooseSize" />
+
+    <CheckBox
+        android:id="@+id/BigSize"
+        android:layout_width="111dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="22dp"
+        android:text="@string/BigSize"
+        app:layout_constraintEnd_toStartOf="@+id/MiddleSize"
+        app:layout_constraintTop_toBottomOf="@+id/ChooseSize" />
+
+    <CheckBox
+        android:id="@+id/MiddleSize"
+        android:layout_width="110dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="14dp"
+        android:text="@string/MiddleSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ChooseSize" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
